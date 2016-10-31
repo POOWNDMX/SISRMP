@@ -1,0 +1,228 @@
+/*    --------------------------------------------------
+	:: Login Section
+	-------------------------------------------------- */
+ .alert-dangerRedireccion {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  font-size: 12px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: -12px;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  font-size: 12px;
+  padding-top: 3px;
+  margin-bottom: -12px;
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  font-size: 12px;
+  padding-top: 3px;
+  margin-bottom: -12px;
+}
+
+
+.alert-danger {
+  color: #a94442;
+  background-color: #F3E9E6;
+  border-color: #F1E0DC;
+  padding: 1px 1px;
+  margin-bottom: -15px;
+  margin-top: 3px;
+  font-size: 10px;
+  width: 90%;
+
+}
+
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+
+}
+
+
+
+
+
+
+
+
+
+
+  body{
+    background-color: #FFFFFF ;
+  }
+  .page-header
+  {
+     margin-bottom: 0px;
+  }
+
+
+#login {
+    padding-top: 10px;
+
+
+}
+#login .form-wrap {
+    max-width: 340px;
+    margin: 0 auto;
+}
+#login h1 {
+    color: #117295;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-left: 0px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    margin-left: 15px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 13px;
+	text-align: center;
+	display: block;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #878787;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+}
+.btn-custom {
+    color: #fff;
+	background-color: #054258;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+    background-color: #043344;
+}
+
+/*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}
+
+
+.form-control::-moz-placeholder {
+  color: #DFDFDF;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #DFDFDF;
+}
+.form-control::-webkit-input-placeholder {
+  color: #DFDFDF;
+}
+
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 0px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  
+}
+
+.navbar-brand {
+  font-size: 13px;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+}
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+ 
+  background-color: #F0F7FF;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  
+  background-color: #F0F7FF;
+  border-radius: 3px;
+  
+
+}
+
+
+
